@@ -13,10 +13,6 @@
 title: Hanish Paturi
 description: >- # this means to ignore newlines until "baseurl:"
   Data Scientist and Analyst project portfolio for Hanish Paturi.
-  This site is built with Jekyll and hosted on GitHub Pages.
-  The theme used is Minimal Mistakes by Michael Rose.
-  See https://mmistakes.github.io/minimal-mistakes/ for details.
-email: hanishpaturi1320@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hantablack9.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: your_twitter_handle
