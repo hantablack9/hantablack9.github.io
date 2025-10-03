@@ -44,3 +44,23 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Author settings
+author:
+  name     : "Hanish Paturi"
+  avatar   : "/assets/images/profile-pic.jpg" # path to your photo
+  bio      : "Data Scientist | Analyst | Problem Solver" # A short bio that appears in the sidebar
+  location : "City, Country"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hanishpaturi1320@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://hantablack9.github.io" # <-- THIS IS THE FIX
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hantablack9"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hanish-paturi"
