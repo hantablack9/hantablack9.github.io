@@ -48,7 +48,7 @@ plugins:
 # Author settings
 author:
   name     : "Hanish Paturi"
-  avatar   : "/assets/images/profile-pic.jpg" # path to your photo
+  avatar   : "/assets/images/profile-pic.png" # path to your photo
   bio      : "Data Scientist | Analyst | Problem Solver" # A short bio that appears in the sidebar
   location : "City, Country"
   links:
