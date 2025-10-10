@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root { --oxford-blue: #001d3d; --gold: #ffc300; --font-body: 'Poppins', sans-serif; }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap' );
+        body { font-family: var(--font-body), sans-serif; color: var(--oxford-blue); padding: 2rem; line-height: 1.7; background-color: #fdfdff; }
+        h1 { font-size: 2rem; font-weight: 700; margin-bottom: 1rem; }
+        h2 { font-size: 1.5rem; font-weight: 600; margin-top: 2.5rem; margin-bottom: 1rem; border-bottom: 2px solid var(--gold); padding-bottom: 0.5rem; }
+        p, ul { margin-bottom: 1rem; color: #333; }
+        ul { list-style-position: inside; padding-left: 1rem; }
+        code { background: #eef2f7; padding: 0.2em 0.4em; margin: 0; font-size: 85%; border-radius: 5px; }
+        .giscus { margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>EdTech Lead Scoring & Market Analysis</h1>
+        <p>An XGBoost-based lead scoring model to improve conversion prediction for an EdTech client, directly informing marketing spend and lead prioritization strategies.</p>
+        
+        <h2>Project Context</h2>
+        <p>The Indian Edtech ecosystem, with a market of $6B, is the 2nd largest after the US and is projected to grow to $10B in 2025. In such an extremely competitive landscape, companies must optimize resource utilization and increase the quality of inbound leads to improve the efficiency of their Sales and Marketing teams.</p>
+
+        <h2>The Challenge</h2>
+        <p>A Bengaluru-based Indian Edtech company requested a solution to improve the quality of their lead screening process. After discussions with stakeholders, we defined the goal: develop a propensity-to-buy model to help sales team-leads rank and prioritize inbound leads before processing.</p>
+
+        <h2>Methodology & Data</h2>
+        <p>The model was built using a dataset of 0.5 million records and 144 features. Key feature groups included:</p>
+        <ul>
+            <li><strong>Cohort & Program Features:</strong> Start/end dates, offering institute, program type, etc.</li>
+            <li><strong>Customer Features:</strong> Years of experience, employment status, demographics.</li>
+            <li><strong>Lead-Specific Features:</strong> Call duration, funnel stage, lead age, etc.</li>
+        </ul>
+        <p>My approach involved building a robust pipeline using XGBoost and optimizing its hyperparameters with Bayesian Optimization to achieve high recall (83%), ensuring that few potential customers were missed.</p>
+
+        <!-- Giscus Comments Section -->
+        <div class="comments-section">
+            <h2>Comments & Discussion</h2>
+            <script src="https://giscus.app/client.js"
+                data-repo="hantablack9/hantablack9.github.io"
+                data-repo-id="YOUR_REPO_ID"
+                data-category="General"
+                data-category-id="YOUR_CATEGORY_ID"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="light"
+                data-lang="en"
+                crossorigin="anonymous"
+                async>
+            </script>
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </main>
+</body>
+</html>
